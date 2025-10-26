@@ -25,15 +25,12 @@
 ## 仓库结构
 ```
 /
-├─ ios_line_cast_screen/          # C++ 实现库：iOS 有线投屏核心逻辑，音视频流回调
-├─ qt_ios_line_cast_screen/       # Qt 简易界面（仅视频，音频未实现）
-├─ tool/
-│   ├─ usbmuxd.exe                # 自编译版 usbmuxd（端口改为 37015）
-│   ├─ ideviceinfo.exe            # 自编译版 ideviceinfo（使用 37015 端口）
-│   ├─ 驱动安装器/                 # 安装 libusb 驱动的工具（libusb0 或过滤层驱动）
-│   └─ libimobiledevice_win/      # 修改后的 usbmuxd 源码（便于使设备进入QuickTime模式）
-└─ README.md
-```
+├─ ios_line_cast_screen/     # 投屏核心库（C++ DLL）与测试示例程序
+├─ libimobiledevice_win/     # 重新编译并修改的 usbmuxd 版本（用于进入 QuickTime 模式）
+├─ packages/                 # 第三方依赖库与自编译的静态/动态库
+├─ qt_ios_line_cast_screen/  # Qt 图形界面测试程序（视频预览界面）
+├─ release/                  # 构建产物与最终打包发布目录
+├─ tool/                     # 驱动安装器及辅助工具（usbmuxd、ideviceinfo等）
 
 ---
 
