@@ -3,7 +3,9 @@
 将 iOS 设备通过 **有线方式投屏到 Windows**，并实时捕获设备端 **音频与视频流**。  
 项目基于 QuickTime 协议的原理，用 **C++** 重新实现，并提供 **命令行与 Qt GUI 示例**。
 
-**交流QQ群：2163047584**
+交流QQ群：2163047584
+[点击加入 QQ 群【QuickTime有线投屏交流】](https://qun.qq.com/universal-share/share?ac=1&authKey=680t7iHiyBjQuLz4DgALfCZIquS95kF7jfW3DJSMoY1sDdsKa9bl5vAvJShsU5r6&busi_data=eyJncm91cENvZGUiOiIyMTYzMDQ3NTg0IiwidG9rZW4iOiJxa2l6WkVmK2lKL20vZFRYWU5LditkQTdXVUJvb0hHVWFXellOMXVSditPYWJoMXZBMEFmSUE1NXU1bmdqTXh0IiwidWluIjoiMjU2ODM1NjMzNiJ9&data=KpsrvrbRLzRZiB3xx5cPTAggjYX00aFeqwGT0vuTozVOKFbnWf7RTh3ubA4XpDN2l1EPs1we9fIWmURPV5E52Q&svctype=4&tempid=h5_group_info)
+
 
 ---
 
