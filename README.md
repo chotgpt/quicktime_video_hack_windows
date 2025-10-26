@@ -69,5 +69,5 @@ release\qt_ios_line_cast_screen.exe
 
 Qt 示例提供简单的画面预览窗口，可直接显示来自 iOS 的实时视频流。（作者音视频解码开发水平有限，仅供预览界面）
 ```
-![运行截图](https://i.hd-r.cn/bdf8336f-a24c-4f30-bddf-89287f76e3db.jpg)
+![Image](https://github.com/user-attachments/assets/2e908349-93c2-4e4f-8a1c-dcf660444d5e)
 
