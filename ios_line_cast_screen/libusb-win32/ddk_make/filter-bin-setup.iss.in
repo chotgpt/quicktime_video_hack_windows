@@ -1,0 +1,124 @@
+; LIBUSB-WIN32, Generic Windows USB Library
+; Copyright (c) 2002-2010 Stephan Meyer <ste_meyer@web.de>
+; Copyright (c) 2010 Travis Robinson <libusbdotnet@gmail.com>
+;
+; This program is free software; you can redistribute it and/or modify
+; it under the terms of the GNU General Public License as published by
+; the Free Software Foundation; either version 2 of the License, or
+; (at your option) any later version.
+; 
+; This program is distributed in the hope that it will be useful,
+; but WITHOUT ANY WARRANTY; without even the implied warranty of
+; MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+; GNU General Public License for more details.
+; 
+; You should have received a copy of the GNU General Public License
+; along with this program; if not, write to the Free Software
+; Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+
+
+[Setup]
+AppName = LibUSB-Win32
+AppVerName = LibUSB-Win32-@VERSION@
+AppId = LibUSB-Win32
+AppPublisher = LibUSB-Win32 
+AppPublisherURL = http://libusb-win32.sourceforge.net
+AppVersion = @VERSION@
+VersionInfoVersion = @VERSION@
+DefaultDirName = {pf}\LibUSB-Win32
+DefaultGroupName = LibUSB-Win32
+LicenseFile = installer_license.txt
+InfoBeforeFile = libusb-win32-changelog-@VERSION@.txt
+Compression = lzma
+SolidCompression = yes
+OutputDir = .
+OutputBaseFilename = @PCKGNAME@
+; requires XP, or higher
+MinVersion = 0, 5.1 
+PrivilegesRequired=admin
+
+; "ArchitecturesInstallIn64BitMode=x64" requests that the install
+; be done in "64-bit mode" on x64, meaning it should use the
+; native 64-bit Program Files directory and the 64-bit view of the
+; registry. On all other architectures it will install in "32-bit mode".
+ArchitecturesInstallIn64BitMode=x64
+AllowNoIcons=yes
+
+[Code]
+function IsX64: Boolean;
+begin
+  Result := Is64BitInstallMode and (ProcessorArchitecture = paX64);
+end;
+
+function IsX86: Boolean;
+begin
+  Result := not IsX64;
+end;
+
+function Is64: Boolean;
+begin
+  Result := IsX64;
+end;
+
+function IsNormalInstall: Boolean;
+begin
+  Result := not IsTaskSelected('installmode_upgade');
+end;
+
+[Files]
+; LibUsb-win32 x86 (Windows XP and greater)
+Source: @PACKAGE_BIN_DIR@x86\libusb0_x86.dll; DestName: libusb0.dll; DestDir: {sys}; Flags: uninsneveruninstall replacesameversion restartreplace promptifolder; Check: IsX86;
+Source: @PACKAGE_BIN_DIR@x86\libusb0.sys; DestDir: {sys}\drivers; Flags: uninsneveruninstall replacesameversion restartreplace promptifolder; Check: IsX86;
+Source: @PACKAGE_BIN_DIR@x86\install-filter.exe; DestDir: {app}\bin; Flags: ignoreversion; Check: IsX86;
+Source: @PACKAGE_BIN_DIR@x86\install-filter-win.exe; DestDir: {app}\bin; Flags: ignoreversion; Check: IsX86;
+Source: @PACKAGE_BIN_DIR@x86\testlibusb-win.exe; DestDir: {app}\bin; Flags: ignoreversion; Check: IsX86;
+Source: @PACKAGE_BIN_DIR@x86\testlibusb.exe; DestDir: {app}\bin; Flags: ignoreversion; Check: IsX86;
+
+; LibUsb-win32 AMD 64bit
+Source: @PACKAGE_BIN_DIR@x86\libusb0_x86.dll; DestName: libusb0.dll; DestDir: {syswow64}; Flags: uninsneveruninstall replacesameversion restartreplace promptifolder; Check: IsX64;
+Source: @PACKAGE_BIN_DIR@amd64\libusb0.sys; DestDir: {sys}\drivers; Flags: uninsneveruninstall replacesameversion restartreplace promptifolder; Check: IsX64;
+Source: @PACKAGE_BIN_DIR@amd64\libusb0.dll; DestDir: {sys}; Flags: uninsneveruninstall replacesameversion restartreplace promptifolder; Check: IsX64;
+Source: @PACKAGE_BIN_DIR@amd64\install-filter.exe; DestDir: {app}\bin; Flags: ignoreversion; Check: IsX64;
+Source: @PACKAGE_BIN_DIR@amd64\install-filter-win.exe; DestDir: {app}\bin; Flags: ignoreversion; Check: IsX64;
+Source: @PACKAGE_BIN_DIR@amd64\testlibusb-win.exe; DestDir: {app}\bin; Flags: ignoreversion; Check: IsX64;
+Source: @PACKAGE_BIN_DIR@amd64\testlibusb.exe; DestDir: {app}\bin; Flags: ignoreversion; Check: IsX64;
+
+Source: @LIBUSB_DIR@src\install-filter-help.txt; DestDir: {app}; Flags: ignoreversion;
+
+; test applications(x86 runtimes for 64bit machines)
+Source: @PACKAGE_BIN_DIR@x86\testlibusb-win.exe; DestDir: {app}\bin\x86; Flags: ignoreversion; Check: Is64;
+Source: @PACKAGE_BIN_DIR@x86\testlibusb.exe; DestDir: {app}\bin\x86; Flags: ignoreversion; Check: Is64;
+
+; Text, Licenses
+Source: *.txt; DestDir: {app}; Flags: ignoreversion;
+
+; Test Certificate (This is only included in debug builds)
+Source: *.cer; DestDir: {app}; Flags: ignoreversion skipifsourcedoesntexist; Check: Is64;
+
+; DebugView (This is only included in debug builds)
+Source: @PACKAGE_ROOT_DIR@additional\dbgview.*; DestDir: {app}\additional; Flags: ignoreversion skipifsourcedoesntexist;
+
+[Icons]
+; these icons are only used in debug builds
+Name: "{group}\Libusb-Win32 Test Certificate"; Filename: {app}\LibusbWin32TestCert.cer; Flags: createonlyiffileexists; 
+Name: "{group}\DebugView\DebugView"; Filename: {app}\additional\Dbgview.exe; Flags: createonlyiffileexists; 
+Name: "{group}\DebugView\DebugView Help"; Filename: {app}\additional\dbgview.chm; Flags: createonlyiffileexists; 
+
+; libusb-win32 icons
+Name: "{group}\Test (Win) Program"; Filename: {app}\bin\testlibusb-win.exe; 
+Name: "{group}\Filter Wizard"; Filename: {app}\bin\install-filter-win.exe; 
+Name: "{group}\Filter Console Help"; Filename: {app}\install-filter-help.txt; 
+Name: "{group}\Class Filter\Install all class filters"; Filename: {app}\bin\install-filter-win.exe; Parameters:"i -ac -p -w"; Comment: "Installs all libusb-win32 class filters."
+Name: "{group}\Class Filter\Remove all class filters";  Filename: {app}\bin\install-filter-win.exe; Parameters:"u -ac -w"; Comment: "Removes all libusb-win32 class filters."
+Name: "{group}\License\GPL License"; Filename: {app}\COPYING_GPL.txt; 
+Name: "{group}\License\LGPL License"; Filename: {app}\COPYING_LGPL.txt; 
+Name: "{group}\Uninstall LibUsb-Win32"; Filename: {uninstallexe}; 
+
+[Run]
+Filename: "{app}\bin\install-filter-win.exe"; Description: "Launch filter installer wizard"; Flags: postinstall nowait runascurrentuser; Check: not WizardNoIcons; 
+
+[UninstallRun]
+Filename: "rundll32.exe"; RunOnceID:"FilterAllDeviceClasses"; Parameters: "libusb0,usb_install_np_rundll u -ac";
+
+[Messages]
+StatusUninstalling=Uninstalling %1 and removing all class filters..

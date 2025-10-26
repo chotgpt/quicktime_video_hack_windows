@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{5f35a7ef-ecb5-4d3f-bcc8-1fe17693de35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils">
+      <UniqueIdentifier>{23c8af7d-8591-4041-bcc9-f288f20fd3a3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\GetDeviceInfo.h" />
+    <ClInclude Include="src\gcdict.h" />
+    <ClInclude Include="src\CMSampleBuf.h" />
+    <ClInclude Include="..\utils\gcusb.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\RW.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="include\MyClock.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\QuickTime.h">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\GetDeviceInfo.cpp" />
+    <ClCompile Include="src\QuickTime.cpp" />
+    <ClCompile Include="src\gcdict.cpp" />
+    <ClCompile Include="src\MyClock.cpp" />
+    <ClCompile Include="src\CMSampleBuf.cpp" />
+    <ClCompile Include="..\utils\gcusb.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\utils\RW.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

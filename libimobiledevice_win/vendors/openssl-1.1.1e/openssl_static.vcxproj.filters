@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\record">
+      <UniqueIdentifier>{d1ba17b6-eedf-4f42-bf0e-bd5f9ced506d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\statem">
+      <UniqueIdentifier>{3d4d7746-d4f4-4995-809e-4461fba90b76}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="openssl-1.1.1e\ssl\bio_ssl.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\ssl\d1_lib.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\ssl\d1_msg.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\ssl\d1_srtp.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\ssl\methods.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\ssl\packet.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\ssl\pqueue.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\ssl\record\dtls1_bitmap.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\ssl\record\rec_layer_d1.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\ssl\record\rec_layer_s3.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\ssl\record\ssl3_buffer.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\ssl\record\ssl3_record.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\ssl\record\ssl3_record_tls13.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\ssl\s3_cbc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\ssl\s3_enc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\ssl\s3_lib.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\ssl\s3_msg.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\ssl\ssl_asn1.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\ssl\ssl_cert.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\ssl\ssl_ciph.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\ssl\ssl_conf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\ssl\ssl_err.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\ssl\ssl_init.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\ssl\ssl_lib.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\ssl\ssl_mcnf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\ssl\ssl_rsa.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\ssl\ssl_sess.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\ssl\ssl_stat.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\ssl\ssl_txt.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\ssl\ssl_utst.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\ssl\statem\extensions.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\ssl\statem\extensions_clnt.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\ssl\statem\extensions_cust.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\ssl\statem\extensions_srvr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\ssl\statem\statem.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\ssl\statem\statem_clnt.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\ssl\statem\statem_dtls.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\ssl\statem\statem_lib.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\ssl\statem\statem_srvr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\ssl\t1_enc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\ssl\t1_lib.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\ssl\t1_trce.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\ssl\tls13_enc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\ssl\tls_srp.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

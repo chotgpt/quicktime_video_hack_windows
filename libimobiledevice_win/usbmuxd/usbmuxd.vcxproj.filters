@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\client.c" />
+    <ClCompile Include="src\conf.c" />
+    <ClCompile Include="src\config_msc.c" />
+    <ClCompile Include="src\device.c" />
+    <ClCompile Include="src\log.c" />
+    <ClCompile Include="src\main.c" />
+    <ClCompile Include="src\preflight.c" />
+    <ClCompile Include="src\usb.c" />
+    <ClCompile Include="src\usb_win32.c" />
+    <ClCompile Include="src\utils.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\client.h" />
+    <ClInclude Include="src\conf.h" />
+    <ClInclude Include="src\config_msc.h" />
+    <ClInclude Include="src\device.h" />
+    <ClInclude Include="src\log.h" />
+    <ClInclude Include="src\preflight.h" />
+    <ClInclude Include="src\tcp.h" />
+    <ClInclude Include="src\usb.h" />
+    <ClInclude Include="src\usb_win32.h" />
+    <ClInclude Include="src\usbmuxd-proto.h" />
+    <ClInclude Include="src\utils.h" />
+    <ClInclude Include="src\winsock2-ext.h" />
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="usbmuxd.rc" />
+  </ItemGroup>
+</Project>

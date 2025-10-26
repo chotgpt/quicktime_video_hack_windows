@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <ProjectGuid>{1CFE37CA-D5F3-4FA5-B1FF-48027885CA05}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>openssl_static</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>false</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)build\lib\$(Configuration)_$(Platform)\</OutDir>
+    <IntDir>obj\$(ProjectName)\$(Configuration)_$(Platform)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)build\lib\$(Configuration)_$(Platform)\</OutDir>
+    <IntDir>obj\$(ProjectName)\$(Configuration)_$(Platform)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IntDir>obj\$(ProjectName)\$(Configuration)_$(Platform)\</IntDir>
+    <OutDir>$(SolutionDir)build\lib\$(Configuration)_$(Platform)\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <IntDir>obj\$(ProjectName)\$(Configuration)_$(Platform)\</IntDir>
+    <OutDir>$(SolutionDir)build\lib\$(Configuration)_$(Platform)\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Label="Vcpkg">
+    <VcpkgEnabled>false</VcpkgEnabled>
+    <VcpkgManifestInstall>false</VcpkgManifestInstall>
+    <VcpkgAutoLink>false</VcpkgAutoLink>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>false</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;WIN32_LEAN_AND_MEAN;OPENSSL_SYS_WIN32;OPENSSL_USE_APPLINK;OPENSSL_PIC;OPENSSL_THREADS;OPENSSL_NO_STATIC_ENGINE;OPENSSLDIR=".\\Openssl\\";ENGINESDIR=".\\Openssl\\Engines\\";_CRT_SECURE_NO_DEPRECATE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeaderFile>
+      </PrecompiledHeaderFile>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <AdditionalIncludeDirectories>openssl-1.1.1e\;openssl-1.1.1e\include\;openssl-1.1.1e\crypto\ec\curve448\;openssl-1.1.1e\crypto\ec\curve448\arch_32\;openssl-1.1.1e\crypto\include\;openssl-1.1.1e\crypto\modes\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>false</MultiProcessorCompilation>
+      <DisableSpecificWarnings>4090;4244;4996</DisableSpecificWarnings>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <FavorSizeOrSpeed>Neither</FavorSizeOrSpeed>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <MinimalRebuild>false</MinimalRebuild>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableUAC>false</EnableUAC>
+      <AdditionalLibraryDirectories>
+      </AdditionalLibraryDirectories>
+      <ModuleDefinitionFile>
+      </ModuleDefinitionFile>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN64;_DEBUG;_WINDOWS;_USRDLL;WIN32_LEAN_AND_MEAN;OPENSSL_SYS_WIN64;OPENSSL_USE_APPLINK;OPENSSL_PIC;OPENSSL_THREADS;OPENSSL_NO_STATIC_ENGINE;OPENSSLDIR=".\\Openssl\\";ENGINESDIR=".\\Openssl\\Engines\\";_CRT_SECURE_NO_DEPRECATE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeaderFile>
+      </PrecompiledHeaderFile>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <AdditionalIncludeDirectories>openssl-1.1.1e\;openssl-1.1.1e\include\;openssl-1.1.1e\crypto\ec\curve448\;openssl-1.1.1e\crypto\ec\curve448\arch_32\;openssl-1.1.1e\crypto\include\;openssl-1.1.1e\crypto\modes\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <DisableSpecificWarnings>4090;4244;4996</DisableSpecificWarnings>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableUAC>false</EnableUAC>
+      <AdditionalLibraryDirectories>
+      </AdditionalLibraryDirectories>
+      <ModuleDefinitionFile>
+      </ModuleDefinitionFile>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <FunctionLevelLinking>
+      </FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>false</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;WIN32_LEAN_AND_MEAN;OPENSSL_SYS_WIN32;OPENSSL_USE_APPLINK;OPENSSL_PIC;OPENSSL_THREADS;OPENSSL_NO_STATIC_ENGINE;OPENSSLDIR=".\\Openssl\\";ENGINESDIR=".\\Openssl\\Engines\\";_CRT_SECURE_NO_DEPRECATE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeaderFile>
+      </PrecompiledHeaderFile>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <AdditionalIncludeDirectories>openssl-1.1.1e\;openssl-1.1.1e\include\;openssl-1.1.1e\crypto\ec\curve448\;openssl-1.1.1e\crypto\ec\curve448\arch_32\;openssl-1.1.1e\crypto\include\;openssl-1.1.1e\crypto\modes\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>false</MultiProcessorCompilation>
+      <DisableSpecificWarnings>4090;4244;4996</DisableSpecificWarnings>
+      <WholeProgramOptimization>false</WholeProgramOptimization>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <OmitFramePointers>false</OmitFramePointers>
+      <FavorSizeOrSpeed>Neither</FavorSizeOrSpeed>
+      <ControlFlowGuard>
+      </ControlFlowGuard>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableUAC>false</EnableUAC>
+      <AdditionalLibraryDirectories>
+      </AdditionalLibraryDirectories>
+      <ModuleDefinitionFile>
+      </ModuleDefinitionFile>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>false</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN64;NDEBUG;_WINDOWS;_USRDLL;WIN32_LEAN_AND_MEAN;OPENSSL_SYS_WIN64;OPENSSL_USE_APPLINK;OPENSSL_PIC;OPENSSL_THREADS;OPENSSL_NO_STATIC_ENGINE;OPENSSLDIR=".\\Openssl\\";ENGINESDIR=".\\Openssl\\Engines\\";_CRT_SECURE_NO_DEPRECATE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeaderFile>
+      </PrecompiledHeaderFile>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <AdditionalIncludeDirectories>openssl-1.1.1e\;openssl-1.1.1e\include\;openssl-1.1.1e\crypto\ec\curve448\;openssl-1.1.1e\crypto\ec\curve448\arch_32\;openssl-1.1.1e\crypto\include\;openssl-1.1.1e\crypto\modes\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <DisableSpecificWarnings>4090;4244;4996</DisableSpecificWarnings>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <ControlFlowGuard>Guard</ControlFlowGuard>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableUAC>false</EnableUAC>
+      <AdditionalLibraryDirectories>
+      </AdditionalLibraryDirectories>
+      <ModuleDefinitionFile>
+      </ModuleDefinitionFile>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="openssl-1.1.1e\ssl\bio_ssl.c" />
+    <ClCompile Include="openssl-1.1.1e\ssl\d1_lib.c" />
+    <ClCompile Include="openssl-1.1.1e\ssl\d1_msg.c" />
+    <ClCompile Include="openssl-1.1.1e\ssl\d1_srtp.c" />
+    <ClCompile Include="openssl-1.1.1e\ssl\methods.c" />
+    <ClCompile Include="openssl-1.1.1e\ssl\packet.c" />
+    <ClCompile Include="openssl-1.1.1e\ssl\pqueue.c" />
+    <ClCompile Include="openssl-1.1.1e\ssl\record\dtls1_bitmap.c" />
+    <ClCompile Include="openssl-1.1.1e\ssl\record\rec_layer_d1.c" />
+    <ClCompile Include="openssl-1.1.1e\ssl\record\rec_layer_s3.c" />
+    <ClCompile Include="openssl-1.1.1e\ssl\record\ssl3_buffer.c" />
+    <ClCompile Include="openssl-1.1.1e\ssl\record\ssl3_record.c" />
+    <ClCompile Include="openssl-1.1.1e\ssl\record\ssl3_record_tls13.c" />
+    <ClCompile Include="openssl-1.1.1e\ssl\s3_cbc.c" />
+    <ClCompile Include="openssl-1.1.1e\ssl\s3_enc.c" />
+    <ClCompile Include="openssl-1.1.1e\ssl\s3_lib.c" />
+    <ClCompile Include="openssl-1.1.1e\ssl\s3_msg.c" />
+    <ClCompile Include="openssl-1.1.1e\ssl\ssl_asn1.c" />
+    <ClCompile Include="openssl-1.1.1e\ssl\ssl_cert.c" />
+    <ClCompile Include="openssl-1.1.1e\ssl\ssl_ciph.c" />
+    <ClCompile Include="openssl-1.1.1e\ssl\ssl_conf.c" />
+    <ClCompile Include="openssl-1.1.1e\ssl\ssl_err.c" />
+    <ClCompile Include="openssl-1.1.1e\ssl\ssl_init.c" />
+    <ClCompile Include="openssl-1.1.1e\ssl\ssl_lib.c" />
+    <ClCompile Include="openssl-1.1.1e\ssl\ssl_mcnf.c" />
+    <ClCompile Include="openssl-1.1.1e\ssl\ssl_rsa.c" />
+    <ClCompile Include="openssl-1.1.1e\ssl\ssl_sess.c" />
+    <ClCompile Include="openssl-1.1.1e\ssl\ssl_stat.c" />
+    <ClCompile Include="openssl-1.1.1e\ssl\ssl_txt.c" />
+    <ClCompile Include="openssl-1.1.1e\ssl\ssl_utst.c" />
+    <ClCompile Include="openssl-1.1.1e\ssl\statem\extensions.c" />
+    <ClCompile Include="openssl-1.1.1e\ssl\statem\extensions_clnt.c" />
+    <ClCompile Include="openssl-1.1.1e\ssl\statem\extensions_cust.c" />
+    <ClCompile Include="openssl-1.1.1e\ssl\statem\extensions_srvr.c" />
+    <ClCompile Include="openssl-1.1.1e\ssl\statem\statem.c" />
+    <ClCompile Include="openssl-1.1.1e\ssl\statem\statem_clnt.c" />
+    <ClCompile Include="openssl-1.1.1e\ssl\statem\statem_dtls.c" />
+    <ClCompile Include="openssl-1.1.1e\ssl\statem\statem_lib.c" />
+    <ClCompile Include="openssl-1.1.1e\ssl\statem\statem_srvr.c" />
+    <ClCompile Include="openssl-1.1.1e\ssl\t1_enc.c" />
+    <ClCompile Include="openssl-1.1.1e\ssl\t1_lib.c" />
+    <ClCompile Include="openssl-1.1.1e\ssl\t1_trce.c" />
+    <ClCompile Include="openssl-1.1.1e\ssl\tls13_enc.c" />
+    <ClCompile Include="openssl-1.1.1e\ssl\tls_srp.c" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,2165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\aes">
+      <UniqueIdentifier>{b2737749-2285-41c7-b2b8-c9b0185930eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\aria">
+      <UniqueIdentifier>{63327bab-f30c-4edd-84b5-c0368aca80b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\asn1">
+      <UniqueIdentifier>{b5a03087-81de-4e80-9341-6db61173bb09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\async">
+      <UniqueIdentifier>{b2f3da97-040e-49e7-9035-42d341b58756}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\async\arch">
+      <UniqueIdentifier>{443088ec-c5da-4ab4-a99c-bd7c74469234}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\bf">
+      <UniqueIdentifier>{9b9bee37-265d-4f60-a025-057902e90a27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\bio">
+      <UniqueIdentifier>{1b34da46-d6da-4d26-bc48-51002ca7ab41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\blake2">
+      <UniqueIdentifier>{0f4e4f2c-93b7-4ed7-a700-6d31a1b0d3dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\bn">
+      <UniqueIdentifier>{9cb545f4-9f22-4f30-87ae-ba715cad1023}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\buffer">
+      <UniqueIdentifier>{e9aaa47f-f93f-4556-af19-762844961c5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\camellia">
+      <UniqueIdentifier>{2a69a394-1041-4f09-ac95-a84b1c84dd74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\cast">
+      <UniqueIdentifier>{e87ac209-3d1f-445c-b8e2-4b9c725ae8e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\chacha">
+      <UniqueIdentifier>{2b8c1284-3df2-48df-9aeb-b60b532c0e1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\cmac">
+      <UniqueIdentifier>{9983e80a-e0e8-4d3f-b4a8-b856c8cc531a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\cms">
+      <UniqueIdentifier>{413f6dc8-b6b0-427b-bbbb-092a578767ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\comp">
+      <UniqueIdentifier>{c8a160e0-df2d-4213-b57f-3176821ec588}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\conf">
+      <UniqueIdentifier>{ab8fb8d6-7cd2-413e-b507-d4d751dc238b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\ct">
+      <UniqueIdentifier>{4651a7e1-6dbf-4788-953a-a5bd86d6a522}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\des">
+      <UniqueIdentifier>{da59a2f7-5637-445a-aa95-2201bd330cea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\dh">
+      <UniqueIdentifier>{28449e2b-63b1-4192-a16f-dba1babbd55e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\dsa">
+      <UniqueIdentifier>{00fdb10d-6531-4232-ae66-f0027a505994}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\dso">
+      <UniqueIdentifier>{cd8670d7-8492-43c9-b892-ffc8eb38dc83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\ec">
+      <UniqueIdentifier>{7822938e-7f4d-45cb-a1ad-d094db97012c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\ec\curve448">
+      <UniqueIdentifier>{eb6c7b25-eec9-42a9-a2ed-31a1df776a1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\ec\curve448\arch_32">
+      <UniqueIdentifier>{ffe1f9e9-fa53-4cd8-aa3e-1d0e99f84dac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\engine">
+      <UniqueIdentifier>{1d1746c8-33f0-4f6d-92ae-286c72fb84b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\err">
+      <UniqueIdentifier>{659bd877-e642-4a7e-b242-61ef0d07768f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\evp">
+      <UniqueIdentifier>{ba6401b4-5c40-41bf-9201-b01ec9a11c96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\hmac">
+      <UniqueIdentifier>{ab970f69-6b71-473f-8903-799a3d1b8156}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\idea">
+      <UniqueIdentifier>{d661d1e3-8cc6-4b3b-a132-83a4ebb14199}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\kdf">
+      <UniqueIdentifier>{0c4c99d6-c956-4222-84fc-bb415e6f11db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\lhash">
+      <UniqueIdentifier>{e9508c71-228f-47c5-9af1-e089476da99d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\md2">
+      <UniqueIdentifier>{79046771-e3db-4cee-b283-581abf2e2a8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\md4">
+      <UniqueIdentifier>{9b9855f8-992a-42ca-ae65-8ce68b64fb17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\md5">
+      <UniqueIdentifier>{b257eca2-374e-48e0-add6-1fd743775e51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\mdc2">
+      <UniqueIdentifier>{0745b178-083c-40b2-8781-ec55c915d2a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\modes">
+      <UniqueIdentifier>{80b28dd6-c896-4aa0-8268-5eaa50fdab58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\objects">
+      <UniqueIdentifier>{5cd402ef-4595-48e1-a375-c98655cb15f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\rc5">
+      <UniqueIdentifier>{8b1675b0-2750-4f0f-aaf2-1da4e26d1c59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\rc4">
+      <UniqueIdentifier>{20054794-1527-4b6f-aa79-15b532388a22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\rc2">
+      <UniqueIdentifier>{bd094eb1-d58c-4d00-b86b-c2b2b307e5bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\rand">
+      <UniqueIdentifier>{b5058206-2224-437a-b0ec-a4aaab3d9a53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\poly1305">
+      <UniqueIdentifier>{0608b4a2-1196-499d-af7a-6f957cf7e405}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\pkcs12">
+      <UniqueIdentifier>{3ca3ae6d-1201-4107-8b4a-132d30e07f1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\pkcs7">
+      <UniqueIdentifier>{1dceb4f3-2995-45f2-bd57-bf0653a5799d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\pem">
+      <UniqueIdentifier>{e5e33e6c-2171-463c-911f-fa77451f8cf4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\ocsp">
+      <UniqueIdentifier>{789b8066-9fea-4c3a-a752-9f663020fe98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\ripemd">
+      <UniqueIdentifier>{0721bef7-ae84-4353-b980-ba6f82f8b9e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\rsa">
+      <UniqueIdentifier>{e0e8863c-45f2-4fd7-aa00-c826dcf50740}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\seed">
+      <UniqueIdentifier>{f75f36ad-2267-471d-a997-3455097ce886}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\sha">
+      <UniqueIdentifier>{7874b6bb-d5cf-4a51-b888-fe64abc15f1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\siphash">
+      <UniqueIdentifier>{2422400e-5c5f-4e93-b2ad-fd3977d0dff9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\sm2">
+      <UniqueIdentifier>{e9c55e4b-5021-4bee-89f9-20781d467378}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\sm3">
+      <UniqueIdentifier>{d036147d-3b9b-4bc3-8a37-d70eb2affa82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\sm4">
+      <UniqueIdentifier>{0ba07561-becd-4283-b51e-bb0c8c998e92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\srp">
+      <UniqueIdentifier>{ffd9ba40-0d69-4af4-ae04-2ffbeb449bec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\stack">
+      <UniqueIdentifier>{5a34a8a4-3269-4698-9a5c-8e5530905703}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\store">
+      <UniqueIdentifier>{33f67df8-6244-4dff-8da1-2d27b7d56e88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\ts">
+      <UniqueIdentifier>{7d4e48ae-9b86-42e1-82e7-3925c2a5efe7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\txt_db">
+      <UniqueIdentifier>{55c7e22d-d110-4cf1-83ef-09a14855b33f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\ui">
+      <UniqueIdentifier>{c9655927-9df6-4e04-95e9-0dba86018f49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\whrlpool">
+      <UniqueIdentifier>{c753a25a-4465-4609-aafd-1a59a5d4d4b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\x509">
+      <UniqueIdentifier>{174a09ac-0000-4122-9f95-6b976931bee6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\x509v3">
+      <UniqueIdentifier>{d65a5505-2fa1-45bb-9f91-bceea93b7dbb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\ms">
+      <UniqueIdentifier>{9fecf271-ad42-4f09-856b-cdc0d6a4a53e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="openssl-1.1.1e\crypto\aes\aes_cbc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\aes\aes_cfb.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\aes\aes_core.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\aes\aes_ecb.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\aes\aes_ige.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\aes\aes_misc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\aes\aes_ofb.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\aes\aes_wrap.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\aria\aria.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\asn1\ameth_lib.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\asn1\asn1_err.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\asn1\asn1_gen.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\asn1\asn1_item_list.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\asn1\asn1_lib.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\asn1\asn1_par.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\asn1\asn_mime.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\asn1\asn_moid.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\asn1\asn_mstbl.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\asn1\asn_pack.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\asn1\a_bitstr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\asn1\a_d2i_fp.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\asn1\a_digest.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\asn1\a_dup.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\asn1\a_gentm.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\asn1\a_i2d_fp.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\asn1\a_int.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\asn1\a_mbstr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\asn1\a_object.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\asn1\a_octet.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\asn1\a_print.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\asn1\a_sign.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\asn1\a_strex.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\asn1\a_strnid.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\asn1\a_time.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\asn1\a_type.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\asn1\a_utctm.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\asn1\a_utf8.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\asn1\a_verify.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\asn1\bio_asn1.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\asn1\bio_ndef.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\asn1\d2i_pr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\asn1\d2i_pu.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\asn1\evp_asn1.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\asn1\f_int.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\asn1\f_string.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\asn1\i2d_pr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\asn1\i2d_pu.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\asn1\nsseq.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\asn1\n_pkey.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\asn1\p5_pbe.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\asn1\p5_pbev2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\asn1\p5_scrypt.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\asn1\p8_pkey.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\asn1\tasn_dec.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\asn1\tasn_enc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\asn1\tasn_fre.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\asn1\tasn_new.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\asn1\tasn_prn.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\asn1\tasn_scn.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\asn1\tasn_typ.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\asn1\tasn_utl.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\asn1\t_bitst.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\asn1\t_pkey.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\asn1\t_spki.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\asn1\x_algor.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\asn1\x_bignum.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\asn1\x_info.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\asn1\x_int64.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\asn1\x_long.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\asn1\x_pkey.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\asn1\x_sig.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\asn1\x_spki.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\asn1\x_val.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\async\arch\async_null.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\async\arch\async_posix.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\async\arch\async_win.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\async\async.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\async\async_err.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\async\async_wait.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\bf\bf_cfb64.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\bf\bf_ecb.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\bf\bf_enc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\bf\bf_ofb64.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\bf\bf_skey.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\bio\bf_buff.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\bio\bf_lbuf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\bio\bf_nbio.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\bio\bf_null.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\bio\bio_cb.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\bio\bio_err.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\bio\bio_lib.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\bio\bio_meth.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\bio\bss_acpt.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\bio\bss_bio.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\bio\bss_conn.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\bio\bss_dgram.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\bio\bss_fd.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\bio\bss_file.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\bio\bss_log.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\bio\bss_mem.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\bio\bss_null.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\bio\bss_sock.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\bio\b_addr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\bio\b_dump.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\bio\b_print.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\bio\b_sock.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\bio\b_sock2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\blake2\blake2b.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\blake2\blake2s.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\blake2\m_blake2b.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\blake2\m_blake2s.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\bn\bn_add.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\bn\bn_asm.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\bn\bn_blind.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\bn\bn_const.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\bn\bn_ctx.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\bn\bn_depr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\bn\bn_dh.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\bn\bn_div.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\bn\bn_err.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\bn\bn_exp.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\bn\bn_exp2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\bn\bn_gcd.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\bn\bn_gf2m.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\bn\bn_intern.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\bn\bn_kron.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\bn\bn_lib.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\bn\bn_mod.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\bn\bn_mont.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\bn\bn_mpi.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\bn\bn_mul.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\bn\bn_nist.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\bn\bn_prime.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\bn\bn_print.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\bn\bn_rand.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\bn\bn_recp.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\bn\bn_shift.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\bn\bn_sqr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\bn\bn_sqrt.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\bn\bn_srp.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\bn\bn_word.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\bn\bn_x931p.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\buffer\buffer.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\buffer\buf_err.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\camellia\camellia.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\camellia\cmll_cbc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\camellia\cmll_cfb.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\camellia\cmll_ctr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\camellia\cmll_ecb.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\camellia\cmll_misc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\camellia\cmll_ofb.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\cast\c_cfb64.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\cast\c_ecb.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\cast\c_enc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\cast\c_ofb64.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\cast\c_skey.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\chacha\chacha_enc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\cmac\cmac.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\cmac\cm_ameth.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\cmac\cm_pmeth.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\cms\cms_asn1.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\cms\cms_att.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\cms\cms_cd.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\cms\cms_dd.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\cms\cms_enc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\cms\cms_env.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\cms\cms_err.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\cms\cms_ess.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\cms\cms_io.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\cms\cms_kari.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\cms\cms_lib.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\cms\cms_pwri.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\cms\cms_sd.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\cms\cms_smime.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\comp\comp_err.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\comp\comp_lib.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\comp\c_zlib.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\conf\conf_api.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\conf\conf_def.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\conf\conf_err.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\conf\conf_lib.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\conf\conf_mall.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\conf\conf_mod.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\conf\conf_sap.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\conf\conf_ssl.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\cpt_err.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\cryptlib.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\ctype.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\ct\ct_b64.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\ct\ct_err.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\ct\ct_log.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\ct\ct_oct.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\ct\ct_policy.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\ct\ct_prn.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\ct\ct_sct.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\ct\ct_sct_ctx.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\ct\ct_vfy.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\ct\ct_x509v3.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\cversion.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\des\cbc_cksm.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\des\cbc_enc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\des\cfb64ede.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\des\cfb64enc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\des\cfb_enc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\des\des_enc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\des\ecb3_enc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\des\ecb_enc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\des\fcrypt.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\des\fcrypt_b.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\des\ofb64ede.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\des\ofb64enc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\des\ofb_enc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\des\pcbc_enc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\des\qud_cksm.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\des\rand_key.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\des\set_key.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\des\str2key.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\des\xcbc_enc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\dh\dh_ameth.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\dh\dh_asn1.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\dh\dh_check.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\dh\dh_depr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\dh\dh_err.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\dh\dh_gen.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\dh\dh_kdf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\dh\dh_key.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\dh\dh_lib.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\dh\dh_meth.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\dh\dh_pmeth.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\dh\dh_prn.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\dh\dh_rfc5114.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\dh\dh_rfc7919.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\dllmain.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\dsa\dsa_ameth.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\dsa\dsa_asn1.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\dsa\dsa_depr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\dsa\dsa_err.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\dsa\dsa_gen.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\dsa\dsa_key.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\dsa\dsa_lib.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\dsa\dsa_meth.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\dsa\dsa_ossl.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\dsa\dsa_pmeth.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\dsa\dsa_prn.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\dsa\dsa_sign.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\dsa\dsa_vrf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\dso\dso_dl.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\dso\dso_dlfcn.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\dso\dso_err.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\dso\dso_lib.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\dso\dso_openssl.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\dso\dso_vms.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\dso\dso_win32.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\ebcdic.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\ec\curve25519.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\ec\curve448\arch_32\f_impl.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\ec\curve448\curve448.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\ec\curve448\curve448_tables.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\ec\curve448\eddsa.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\ec\curve448\f_generic.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\ec\curve448\scalar.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\ec\ec2_oct.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\ec\ec2_smpl.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\ec\ecdh_kdf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\ec\ecdh_ossl.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\ec\ecdsa_ossl.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\ec\ecdsa_sign.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\ec\ecdsa_vrf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\ec\eck_prn.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\ec\ecp_mont.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\ec\ecp_nist.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\ec\ecp_nistp224.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\ec\ecp_nistp256.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\ec\ecp_nistp521.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\ec\ecp_nistputil.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\ec\ecp_oct.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\ec\ecp_smpl.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\ec\ecx_meth.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\ec\ec_ameth.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\ec\ec_asn1.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\ec\ec_check.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\ec\ec_curve.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\ec\ec_cvt.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\ec\ec_err.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\ec\ec_key.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\ec\ec_kmeth.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\ec\ec_lib.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\ec\ec_mult.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\ec\ec_oct.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\ec\ec_pmeth.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\ec\ec_print.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\engine\eng_all.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\engine\eng_cnf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\engine\eng_ctrl.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\engine\eng_dyn.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\engine\eng_err.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\engine\eng_fat.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\engine\eng_init.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\engine\eng_lib.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\engine\eng_list.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\engine\eng_openssl.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\engine\eng_pkey.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\engine\eng_rdrand.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\engine\eng_table.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\engine\tb_asnmth.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\engine\tb_cipher.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\engine\tb_dh.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\engine\tb_digest.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\engine\tb_dsa.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\engine\tb_eckey.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\engine\tb_pkmeth.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\engine\tb_rand.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\engine\tb_rsa.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\err\err.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\err\err_all.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\err\err_prn.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\evp\bio_b64.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\evp\bio_enc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\evp\bio_md.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\evp\bio_ok.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\evp\cmeth_lib.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\evp\c_allc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\evp\c_alld.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\evp\digest.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\evp\encode.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\evp\evp_cnf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\evp\evp_enc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\evp\evp_err.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\evp\evp_key.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\evp\evp_lib.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\evp\evp_pbe.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\evp\evp_pkey.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\evp\e_aes.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\evp\e_aes_cbc_hmac_sha1.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\evp\e_aes_cbc_hmac_sha256.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\evp\e_aria.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\evp\e_bf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\evp\e_camellia.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\evp\e_cast.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\evp\e_chacha20_poly1305.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\evp\e_des.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\evp\e_des3.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\evp\e_idea.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\evp\e_null.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\evp\e_old.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\evp\e_rc2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\evp\e_rc4.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\evp\e_rc4_hmac_md5.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\evp\e_rc5.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\evp\e_seed.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\evp\e_sm4.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\evp\e_xcbc_d.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\evp\m_md2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\evp\m_md4.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\evp\m_md5.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\evp\m_md5_sha1.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\evp\m_mdc2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\evp\m_null.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\evp\m_ripemd.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\evp\m_sha1.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\evp\m_sha3.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\evp\m_sigver.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\evp\m_wp.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\evp\names.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\evp\p5_crpt.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\evp\p5_crpt2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\evp\pbe_scrypt.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\evp\pmeth_fn.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\evp\pmeth_gn.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\evp\pmeth_lib.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\evp\p_dec.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\evp\p_enc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\evp\p_lib.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\evp\p_open.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\evp\p_seal.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\evp\p_sign.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\evp\p_verify.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\ex_data.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\hmac\hmac.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\hmac\hm_ameth.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\hmac\hm_pmeth.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\idea\i_cbc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\idea\i_cfb64.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\idea\i_ecb.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\idea\i_ofb64.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\idea\i_skey.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\init.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\kdf\hkdf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\kdf\kdf_err.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\kdf\scrypt.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\kdf\tls1_prf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\lhash\lhash.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\lhash\lh_stats.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\md2\md2_dgst.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\md2\md2_one.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\md4\md4_dgst.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\md4\md4_one.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\md5\md5_dgst.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\md5\md5_one.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\mdc2\mdc2dgst.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\mdc2\mdc2_one.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\mem.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\mem_clr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\mem_dbg.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\mem_sec.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\modes\cbc128.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\modes\ccm128.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\modes\cfb128.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\modes\ctr128.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\modes\cts128.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\modes\gcm128.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\modes\ocb128.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\modes\ofb128.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\modes\wrap128.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\modes\xts128.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\objects\obj_dat.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\objects\obj_err.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\objects\obj_lib.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\objects\obj_xref.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\objects\o_names.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\ocsp\ocsp_asn.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\ocsp\ocsp_cl.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\ocsp\ocsp_err.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\ocsp\ocsp_ext.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\ocsp\ocsp_ht.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\ocsp\ocsp_lib.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\ocsp\ocsp_prn.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\ocsp\ocsp_srv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\ocsp\ocsp_vfy.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\ocsp\v3_ocsp.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\o_dir.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\o_fips.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\o_fopen.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\o_init.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\o_str.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\o_time.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\pem\pem_all.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\pem\pem_err.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\pem\pem_info.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\pem\pem_lib.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\pem\pem_oth.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\pem\pem_pk8.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\pem\pem_pkey.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\pem\pem_sign.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\pem\pem_x509.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\pem\pem_xaux.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\pem\pvkfmt.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\pkcs12\p12_add.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\pkcs12\p12_asn.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\pkcs12\p12_attr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\pkcs12\p12_crpt.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\pkcs12\p12_crt.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\pkcs12\p12_decr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\pkcs12\p12_init.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\pkcs12\p12_key.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\pkcs12\p12_kiss.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\pkcs12\p12_mutl.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\pkcs12\p12_npas.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\pkcs12\p12_p8d.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\pkcs12\p12_p8e.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\pkcs12\p12_sbag.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\pkcs12\p12_utl.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\pkcs12\pk12err.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\pkcs7\bio_pk7.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\pkcs7\pk7_asn1.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\pkcs7\pk7_attr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\pkcs7\pk7_doit.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\pkcs7\pk7_lib.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\pkcs7\pk7_mime.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\pkcs7\pk7_smime.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\pkcs7\pkcs7err.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\poly1305\poly1305.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\poly1305\poly1305_ameth.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\poly1305\poly1305_pmeth.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\rand\drbg_ctr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\rand\drbg_lib.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\rand\randfile.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\rand\rand_egd.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\rand\rand_err.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\rand\rand_lib.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\rand\rand_unix.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\rand\rand_vms.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\rand\rand_win.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\rc2\rc2cfb64.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\rc2\rc2ofb64.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\rc2\rc2_cbc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\rc2\rc2_ecb.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\rc2\rc2_skey.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\rc4\rc4_enc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\rc4\rc4_skey.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\rc5\rc5cfb64.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\rc5\rc5ofb64.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\rc5\rc5_ecb.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\rc5\rc5_enc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\rc5\rc5_skey.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\ripemd\rmd_dgst.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\ripemd\rmd_one.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\rsa\rsa_ameth.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\rsa\rsa_asn1.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\rsa\rsa_chk.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\rsa\rsa_crpt.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\rsa\rsa_depr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\rsa\rsa_err.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\rsa\rsa_gen.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\rsa\rsa_lib.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\rsa\rsa_meth.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\rsa\rsa_mp.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\rsa\rsa_none.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\rsa\rsa_oaep.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\rsa\rsa_ossl.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\rsa\rsa_pk1.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\rsa\rsa_pmeth.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\rsa\rsa_prn.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\rsa\rsa_pss.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\rsa\rsa_saos.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\rsa\rsa_sign.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\rsa\rsa_ssl.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\rsa\rsa_x931.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\rsa\rsa_x931g.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\seed\seed.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\seed\seed_cbc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\seed\seed_cfb.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\seed\seed_ecb.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\seed\seed_ofb.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\sha\keccak1600.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\sha\sha1dgst.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\sha\sha1_one.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\sha\sha256.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\sha\sha512.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\siphash\siphash.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\siphash\siphash_ameth.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\siphash\siphash_pmeth.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\sm2\sm2_crypt.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\sm2\sm2_err.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\sm2\sm2_pmeth.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\sm2\sm2_sign.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\sm3\m_sm3.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\sm3\sm3.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\sm4\sm4.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\srp\srp_lib.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\srp\srp_vfy.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\stack\stack.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\store\loader_file.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\store\store_err.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\store\store_init.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\store\store_lib.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\store\store_register.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\store\store_strings.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\threads_none.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\threads_pthread.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\threads_win.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\ts\ts_asn1.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\ts\ts_conf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\ts\ts_err.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\ts\ts_lib.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\ts\ts_req_print.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\ts\ts_req_utils.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\ts\ts_rsp_print.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\ts\ts_rsp_sign.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\ts\ts_rsp_utils.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\ts\ts_rsp_verify.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\ts\ts_verify_ctx.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\txt_db\txt_db.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\uid.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\ui\ui_err.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\ui\ui_lib.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\ui\ui_null.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\ui\ui_openssl.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\ui\ui_util.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\whrlpool\wp_block.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\whrlpool\wp_dgst.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\x509v3\pcy_cache.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\x509v3\pcy_data.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\x509v3\pcy_lib.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\x509v3\pcy_map.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\x509v3\pcy_node.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\x509v3\pcy_tree.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\x509v3\v3err.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\x509v3\v3_addr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\x509v3\v3_admis.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\x509v3\v3_akey.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\x509v3\v3_akeya.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\x509v3\v3_alt.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\x509v3\v3_asid.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\x509v3\v3_bcons.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\x509v3\v3_bitst.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\x509v3\v3_conf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\x509v3\v3_cpols.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\x509v3\v3_crld.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\x509v3\v3_enum.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\x509v3\v3_extku.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\x509v3\v3_genn.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\x509v3\v3_ia5.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\x509v3\v3_info.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\x509v3\v3_int.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\x509v3\v3_lib.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\x509v3\v3_ncons.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\x509v3\v3_pci.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\x509v3\v3_pcia.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\x509v3\v3_pcons.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\x509v3\v3_pku.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\x509v3\v3_pmaps.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\x509v3\v3_prn.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\x509v3\v3_purp.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\x509v3\v3_skey.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\x509v3\v3_sxnet.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\x509v3\v3_tlsf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\x509v3\v3_utl.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\x509\by_dir.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\x509\by_file.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\x509\t_crl.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\x509\t_req.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\x509\t_x509.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\x509\x509cset.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\x509\x509name.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\x509\x509rset.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\x509\x509spki.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\x509\x509type.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\x509\x509_att.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\x509\x509_cmp.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\x509\x509_d2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\x509\x509_def.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\x509\x509_err.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\x509\x509_ext.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\x509\x509_lu.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\x509\x509_meth.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\x509\x509_obj.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\x509\x509_r2x.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\x509\x509_req.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\x509\x509_set.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\x509\x509_trs.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\x509\x509_txt.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\x509\x509_v3.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\x509\x509_vfy.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\x509\x509_vpm.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\x509\x_all.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\x509\x_attrib.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\x509\x_crl.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\x509\x_exten.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\x509\x_name.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\x509\x_pubkey.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\x509\x_req.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\x509\x_x509.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\x509\x_x509a.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\ms\uplink.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl-1.1.1e\crypto\getenv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="openssl-1.1.1e\crypto\dh\dh_locl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl-1.1.1e\crypto\mips_arch.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <MASM Include="openssl-1.1.1e\crypto\uplink-x86_64.asm">
+      <Filter>源文件</Filter>
+    </MASM>
+  </ItemGroup>
+</Project>

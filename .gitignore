@@ -1,0 +1,15 @@
+.vs/
+*/.vs/
+*/*/.vs/
+
+*.pdb
+*.obj
+*.ilk
+
+*.log
+*.tmp
+
+/libimobiledevice_win/build/
+/qt_ios_line_cast_screen/build/
+
+release
