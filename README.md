@@ -32,16 +32,12 @@
 ├─ release/                  # 构建产物与最终打包发布目录
 ├─ tool/                     # 驱动安装器及辅助工具（usbmuxd、ideviceinfo等）
 
----
 
-## 使用方法
-
-### 1. 启动 usbmuxd 服务
-打开命令行（cmd），进入 `tool` 目录并运行：
-```bash
-cd tool
-usbmuxd.exe
 ```
+## 使用方法
+### 1. 启动 usbmuxd 服务
+进入 `tool` 目录并运行：usbmuxd.exe
+
 该进程会监听端口 **37015**，并在检测到 iOS 设备连接时自动进入 QuickTime 模式。
 
 ### 2. 连接并解锁手机
@@ -59,15 +55,13 @@ usbmuxd.exe
 可以选择运行以下任意程序进行测试：
 
 #### 命令行版本
-```bash
-ios_line_cast_screen.exe
-```
+release\test_x64Debug.exe
+
 程序启动后会自动检测设备，并通过回调输出音视频流。  
 开发者可在源码中实现自定义回调函数来处理流数据（保存或显示）。
 
 #### Qt 界面版本
-```bash
-qt_ios_line_cast_screen.exe
-```
+release\qt_ios_line_cast_screen.exe
+
 Qt 示例提供简单的画面预览窗口，可直接显示来自 iOS 的实时视频流。（作者音视频解码开发水平有限，仅供预览界面）
----
+```
