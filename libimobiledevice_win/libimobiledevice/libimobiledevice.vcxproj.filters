@@ -1,0 +1,299 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{7d686e7f-3304-48d0-8a53-2b2228fabe0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\libimobiledevice">
+      <UniqueIdentifier>{a122d0dd-b608-4c1a-86e2-90d5821fae39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{cadd28ab-dd02-4af7-96fd-6c000b33b4d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="command">
+      <UniqueIdentifier>{f5d1e012-e9b7-488d-b78b-021ffd82d1c3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\asprintf.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\endianness.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\libimobiledevice\afc.h">
+      <Filter>include\libimobiledevice</Filter>
+    </ClInclude>
+    <ClInclude Include="include\libimobiledevice\bt_packet_logger.h">
+      <Filter>include\libimobiledevice</Filter>
+    </ClInclude>
+    <ClInclude Include="include\libimobiledevice\companion_proxy.h">
+      <Filter>include\libimobiledevice</Filter>
+    </ClInclude>
+    <ClInclude Include="include\libimobiledevice\debugserver.h">
+      <Filter>include\libimobiledevice</Filter>
+    </ClInclude>
+    <ClInclude Include="include\libimobiledevice\diagnostics_relay.h">
+      <Filter>include\libimobiledevice</Filter>
+    </ClInclude>
+    <ClInclude Include="include\libimobiledevice\file_relay.h">
+      <Filter>include\libimobiledevice</Filter>
+    </ClInclude>
+    <ClInclude Include="include\libimobiledevice\heartbeat.h">
+      <Filter>include\libimobiledevice</Filter>
+    </ClInclude>
+    <ClInclude Include="include\libimobiledevice\house_arrest.h">
+      <Filter>include\libimobiledevice</Filter>
+    </ClInclude>
+    <ClInclude Include="include\libimobiledevice\installation_proxy.h">
+      <Filter>include\libimobiledevice</Filter>
+    </ClInclude>
+    <ClInclude Include="include\libimobiledevice\libimobiledevice.h">
+      <Filter>include\libimobiledevice</Filter>
+    </ClInclude>
+    <ClInclude Include="include\libimobiledevice\lockdown.h">
+      <Filter>include\libimobiledevice</Filter>
+    </ClInclude>
+    <ClInclude Include="include\libimobiledevice\misagent.h">
+      <Filter>include\libimobiledevice</Filter>
+    </ClInclude>
+    <ClInclude Include="include\libimobiledevice\mobile_image_mounter.h">
+      <Filter>include\libimobiledevice</Filter>
+    </ClInclude>
+    <ClInclude Include="include\libimobiledevice\mobileactivation.h">
+      <Filter>include\libimobiledevice</Filter>
+    </ClInclude>
+    <ClInclude Include="include\libimobiledevice\mobilebackup.h">
+      <Filter>include\libimobiledevice</Filter>
+    </ClInclude>
+    <ClInclude Include="include\libimobiledevice\mobilebackup2.h">
+      <Filter>include\libimobiledevice</Filter>
+    </ClInclude>
+    <ClInclude Include="include\libimobiledevice\mobilesync.h">
+      <Filter>include\libimobiledevice</Filter>
+    </ClInclude>
+    <ClInclude Include="include\libimobiledevice\notification_proxy.h">
+      <Filter>include\libimobiledevice</Filter>
+    </ClInclude>
+    <ClInclude Include="include\libimobiledevice\preboard.h">
+      <Filter>include\libimobiledevice</Filter>
+    </ClInclude>
+    <ClInclude Include="include\libimobiledevice\property_list_service.h">
+      <Filter>include\libimobiledevice</Filter>
+    </ClInclude>
+    <ClInclude Include="include\libimobiledevice\restore.h">
+      <Filter>include\libimobiledevice</Filter>
+    </ClInclude>
+    <ClInclude Include="include\libimobiledevice\reverse_proxy.h">
+      <Filter>include\libimobiledevice</Filter>
+    </ClInclude>
+    <ClInclude Include="include\libimobiledevice\sbservices.h">
+      <Filter>include\libimobiledevice</Filter>
+    </ClInclude>
+    <ClInclude Include="include\libimobiledevice\screenshotr.h">
+      <Filter>include\libimobiledevice</Filter>
+    </ClInclude>
+    <ClInclude Include="include\libimobiledevice\service.h">
+      <Filter>include\libimobiledevice</Filter>
+    </ClInclude>
+    <ClInclude Include="include\libimobiledevice\syslog_relay.h">
+      <Filter>include\libimobiledevice</Filter>
+    </ClInclude>
+    <ClInclude Include="include\libimobiledevice\webinspector.h">
+      <Filter>include\libimobiledevice</Filter>
+    </ClInclude>
+    <ClInclude Include="src\afc.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\bt_packet_logger.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\companion_proxy.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\debugserver.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\device_link_service.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\diagnostics_relay.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\file_relay.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\heartbeat.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\house_arrest.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\idevice.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\installation_proxy.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lockdown.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\misagent.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mobile_image_mounter.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mobileactivation.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mobilebackup.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mobilebackup2.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mobilesync.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\notification_proxy.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\preboard.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\property_list_service.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\restore.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\reverse_proxy.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sbservices.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\screenshotr.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\service.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\syslog_relay.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\webinspector.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="common\debug.h">
+      <Filter>command</Filter>
+    </ClInclude>
+    <ClInclude Include="common\userpref.h">
+      <Filter>command</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\afc.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bt_packet_logger.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\companion_proxy.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\debugserver.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\device_link_service.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\diagnostics_relay.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\file_relay.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\heartbeat.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\house_arrest.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\idevice.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\installation_proxy.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lockdown.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lockdown-cu.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\misagent.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mobile_image_mounter.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mobileactivation.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mobilebackup.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mobilebackup2.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mobilesync.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\notification_proxy.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\preboard.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\property_list_service.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\restore.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\reverse_proxy.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sbservices.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\screenshotr.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\service.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\syslog_relay.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\webinspector.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="common\debug.c">
+      <Filter>command</Filter>
+    </ClCompile>
+    <ClCompile Include="common\userpref.c">
+      <Filter>command</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="src\libimobiledevice-1.0.pc.in">
+      <Filter>src</Filter>
+    </None>
+    <None Include="src\Makefile.am">
+      <Filter>src</Filter>
+    </None>
+  </ItemGroup>
+</Project>
